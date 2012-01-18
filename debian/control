@@ -1,0 +1,12 @@
+Source: snzip
+Section: utils
+Priority: optional
+Maintainer: Kubo Takehiro <kubo@jiubao.org
+Build-Depends: debhelper (>= 7), autotools-dev, libsnappy-dev
+Standards-Version: 3.9.2
+Vcs-Git: https://github.com/kubo/snzip.git
+
+Package: snzip
+Architecture: any
+Depends: libsnappy1
+Description: gzip like compression tool using the snappy algorithm
